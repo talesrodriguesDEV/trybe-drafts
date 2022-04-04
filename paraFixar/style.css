@@ -1,0 +1,51 @@
+h1 {
+    text-align: center;
+  }
+
+.first {
+    background-color: rgb(235, 200, 84);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 200px;
+    margin-left: 30%;
+}
+
+.second {
+    background-color: rgb(219, 219, 219);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+    display: inline-block;
+    
+    
+  }
+
+.third {
+    background-color: rgb(170, 142, 106);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+    display: inline-block;
+}
+
+section.segunda-seção ul li {
+display: inline;
+}
+
+body {
+    text-align: center;
+}
+
+section.primeira-seção {
+    /* border: 2px solid red;    */
+    margin-left: 30%; 
+    width:800px;
+}
+
+.base{
+    /* border: 2px solid red;  */
+    margin-right: 95px;
+}

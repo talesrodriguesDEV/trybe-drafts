@@ -27,11 +27,21 @@
 // patientId = '50';
 // console.log(typeof patientId);
 
-let base = 5;
-let height = 8;
+// let base = 5;
+// let height = 8;
 
-let area = base * height;
-console.log(area);
+// let area = base * height;
+// console.log(area);
 
-let perimeter = (2 * base + 2 * height);
-console.log(perimeter);
+// let perimeter = (2 * base + 2 * height);
+// console.log(perimeter);
+
+// let nota = 59;
+
+// if (nota >= 80) {
+//     console.log("Parabéns, você foi aprovada(o)!");
+// } else if (nota >= 60 && nota < 80) {
+//     console.log("Você está na nossa lista de espera.");
+// } else {
+//     console.log("Você foi reprovada(o).");
+// }

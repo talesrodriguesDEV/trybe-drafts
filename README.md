@@ -1,1 +1,1 @@
-Este repositório reúne os rascunhos referentes ao meu processo de aprendizagem. Para acessar os exercícios oficiais desenvolvidos de maneira sistemática, confira o repositório "trybe-exercises".
+Este repositório reúne 'rascunhos' referentes ao meu processo de aprendizagem na Trybe. Para acessar os exercícios 'oficiais', confira o repositório "trybe-exercises".

@@ -13,14 +13,14 @@
       <p class="paragraphs">Go Trybe!</p>
     </header>
     <script>
-      const paragraph = document.getElementById("paragraph");
+      const paragraph = document.querySelector("#paragraph");
       paragraph.style.color = "red";
-      document.getElementById('page-title').innerText = 'Forrest Gump';
-      document.getElementById('second-paragraph').innerText = 'Pão com mortadela';
-      document.getElementById('subtitle').innerText = 'Que coisa linda!';
-      const paragraphs1 = document.getElementsByClassName('paragraphs')[0];
+      document.querySelector('#page-title').innerText = 'Forrest Gump';
+      document.querySelector('#second-paragraph').innerText = 'Pão com mortadela';
+      document.querySelector('#subtitle').innerText = 'Que coisa linda!';
+      const paragraphs1 = document.querySelectorAll('.paragraphs')[0];
       paragraphs1.style.color = 'white';
-      const subtitle = document.getElementsByTagName('h4')[0];
+      const subtitle = document.querySelector('h4');
       subtitle.style.color = 'blue';
     </script>
   </body>

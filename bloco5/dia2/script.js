@@ -36,3 +36,16 @@ document.querySelector('#primeiroFilhoDoFilho').appendChild(primeiroFilhoDoFilho
 primeiroFilhoDoFilhoDoFilho.innerText = 'Primeiro filho do filho do filho';
 // 4
 console.log(primeiroFilhoDoFilhoDoFilho.parentNode.parentNode.nextElementSibling);
+
+// Parte III
+// 1
+let filhosDoPai = document.querySelector('#pai').children;
+console.log(filhosDoPai);
+for(index = 0; index < filhosDoPai.length; index += 1) {
+    if(filhosDoPai[index] !== document.querySelector('#elementoOndeVoceEsta')) {
+        document.querySelector('#pai').removeChild(filhosDoPai[index]);
+    }
+}
+document.querySelector('#pai').removeChild(quartoEUltimoFilho);
+console.log(filhosDoPai);
+document.querySelector('#elementoOndeVoceEsta').removeChild(segundoEUltimoFilhoDoFilho);

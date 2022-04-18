@@ -26,23 +26,30 @@ function addTech(event) {
 
 // 3. Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
 // com a classe 'tech';
-let inputTexto = document.querySelector('input');
+//let inputTexto = document.querySelector('input');
 let elemento = document.querySelector('.tech');
-inputTexto.addEventListener('keyup', changeText);
+input.addEventListener('keyup', changeText);
 function changeText() {
-    elemento.innerHTML = inputTexto.value;
+    elemento.innerHTML = input.value;
 }
 // 4. Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele
 // redirecione para alguma página;
 // 4.1. Que tal redirecionar para seu portfólio?
-let hThree = document.querySelector('h3');
-hThree.addEventListener('dblclick', redirecionar);
+//let hThree = document.querySelector('h3');
+myWebpage.addEventListener('dblclick', redirecionar);
 function redirecionar() {
     window.location.href = 'https://talesrodriguesdev.github.io/';
 }
 // 5. Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
 // a cor do mesmo;
-
+myWebpage.addEventListener('mouseenter', changeColor);
+myWebpage.addEventListener('mouseleave', changeColor2);
+function changeColor(event) {
+    event.target.style.color = 'yellow';
+} 
+function changeColor2(event) {
+    event.target.style.color = 'white';
+}
 // Segue abaixo um exemplo do uso de event.target:
 
 

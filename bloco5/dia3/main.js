@@ -27,9 +27,9 @@ function addTech(event) {
 // 3. Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
 // com a classe 'tech';
 //let inputTexto = document.querySelector('input');
-let elemento = document.querySelector('.tech');
 input.addEventListener('keyup', changeText);
 function changeText() {
+    let elemento = document.querySelector('.tech');
     elemento.innerHTML = input.value;
 }
 // 4. Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele
@@ -38,7 +38,7 @@ function changeText() {
 //let hThree = document.querySelector('h3');
 myWebpage.addEventListener('dblclick', redirecionar);
 function redirecionar() {
-    window.location.href = 'https://talesrodriguesdev.github.io/';
+    window.open('https://talesrodriguesdev.github.io/');
 }
 // 5. Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
 // a cor do mesmo;
